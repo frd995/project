@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+/* main page */
+
+#header-title {
+    margin-left: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    background-color: darkslategrey;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    margin-right: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 37.6px;
+}
+
+nav ul li:hover {
+    background-color: blueviolet;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 10px;
+    color: black;
+}
+
+section {
+    padding-bottom: 37px;
+    padding-top: 74px;
+    background-color: aqua;   
+}
+
+.section-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.section-main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.section-text {
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    font-size: larger;
+    padding-top: 25px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.section-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+}
+
+.footer-text {
+    height: 40px;
+    background-color: slategrey;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    font-size: 26px;
+}
+
+/* gallery page */
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.gallery-container > * {
+    flex: 1 1;
+}
+
+.gallery-img {
+    border-radius: 5px;
+    margin-bottom: 12px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: red;
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* contact page */
+
+.contacts-title {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.contacts-main-text {
+    text-align: center;
+    font-size: 23px;
+}
+
+#gender {
+    width: 165px;
+    height: 22px
+}
+
+.contacts-form {
+    text-align: center;
+    padding-top: 20px;
+}
